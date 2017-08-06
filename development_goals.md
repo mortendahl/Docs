@@ -14,6 +14,8 @@
     - [Mine](#mine)
     - [Capsule](#capsule)
     - [Sonar](#sonar)
+    - [syft](#syft)
+    - [adapters](#adapters)
 
 <!-- /TOC -->
 
@@ -56,6 +58,19 @@ Individual features that the components might develop.
 
 ### Mine
 
+1. mine model (read model from sonar, fetch model from IPFS, call `syft` to train, publish new gradients to IPFS & sonar)
+2. use adapters to transform data for the model
+3. identify models that can be trained
+    * model still in training
+    * source data available
+4. mining strategies
+    * which models should be trained
+    * keep track how often a model was trained
+
 ### Capsule
 
 ### Sonar
+
+### syft
+
+### adapters
