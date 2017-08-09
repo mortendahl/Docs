@@ -2,6 +2,8 @@
 
 ## Naming Conventions
 ### Files & Folders
+All conventions below apply by default. This means that if there is no existing language-specific convention that contradicts it (e.g. Python snake case)
+* All names should be in lowercase and joined with dashes (e.g. `this-is-a-name`).
 
 ## Branch Conventions
 * `master` is `protected`, contributors should open a Pull Request against `master`.
