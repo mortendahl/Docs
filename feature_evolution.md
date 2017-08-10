@@ -1,6 +1,6 @@
 # Feature Evolution Process
 
-> How does the OpenMined ecosystem develop new features? 🛣📈
+> How does the OpenMined platform develop new features? 🛣📈
 
 <!-- TOC depthFrom:2 -->
 
@@ -20,20 +20,20 @@
 
 Some words being used repeatedly in this document for quick reference. Most of them will be explained in detail later on.
 
-`❄️ Component`: An individual part of the OpenMined **system** (e.g. Mine, Sonar, Syft)
+`❄️ Component`: An individual part of the OpenMined **platform** (e.g. Mine, Sonar, Syft)
 
-`⛄️ System`: All of OpenMineds **components** working together
+`⛄️ Platform`: All of OpenMineds **components** working together
 
-`🛣 Roadmap`: Features of the whole **system** bundled into milestones
+`🛣 Roadmap`: Features of the whole **platform** bundled into milestones
 
 `💡 Featuremap`: A **component** specific list of features that are planned.
 
 `☑️ Issue`: A github issue which is the smallest description of a workpackage in a differential stlye (_add/remove .._), usually specific and belonging to a **component**
 
-`📝 Specification`: Describing an absolute state of either a **component** or the **system** (_component/system spec_). Every other milestone it might make sense to combine the differential **milestones** into a new system specification - or vice-versa.
+`📝 Specification`: Describing an absolute state of either a **component** or the **platform** (_component/platform spec_). Every other milestone it might make sense to combine the differential **milestones** into a new platform specification - or vice-versa.
 
 
-`📦 Milestone`: Baselined version of the whole **system** where all **components** have matching interfaces
+`📦 Milestone`: Baselined version of the whole **platform** where all **components** have matching interfaces
 
 `⚖️ acceptance criteria`: _aka Definition of Done (DoD)_, list of things that the change needs to fulfill to be considered a solution (comes with **issues** and **milestones**)
 
@@ -53,11 +53,11 @@ The key components in this step are described in detail below:
 
 ### Milestones
 
-> Baselined version of the whole **system** where all **components** have matching interfaces
+> Baselined version of the whole **platform** where all **components** have matching interfaces
 
 `Purpose`: Align contributors and provide
 
-`Where to find`: Defined in the system roadmap (_TODO@2017-08: link to actual roadmap_)
+`Where to find`: Defined in the platform roadmap (_TODO@2017-08: link to actual roadmap_)
 
 `Conventions`:
 * named after elements in the [periodic table](http://www.ptable.com/) in ascending order
@@ -88,13 +88,14 @@ The key components in this step are described in detail below:
 
 `Purpose`: Top Level document to get an understanding of current project status and future plans w/ **rough** timeplan
 
-`Where to find`: Markdown in the OpenMined/docs repositry. _TODO@2017-08: Link to trasks doc_
+`Where to find`: [roadmap.md](roadmap.md) in this repository
 
 `Conventions`:
 * should feature at least 3 milestones into the future 🔮
 * core team is responsible to break milestone goals/acceptance critera into issues
+* the roadmap should be _append to top_ meaning new milestones are at the top of the document
 
-`Example`: Not necessary as there is only one roadmap, [look at it](TODO@2017-08://link.lol) ffs.
+`Example`: Not necessary as there is only one roadmap, [look at it](roadmap.md) ffs.
 
 ## Roadmap to issues
 
