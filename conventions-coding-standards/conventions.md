@@ -19,5 +19,8 @@ All conventions below apply by default. This means that if there is no existing 
 
 
 ## Commit Conventions
+* One commit per logical change
+* Be descriptive (no `Update README.md`)
 
 ## Pull Request Conventions
+* Tag the issue your PR addreses using a GitHub keyword, e.g. `Closes #1`
